@@ -3,7 +3,7 @@
   "name": "accounting-kpi-and-goals-filament",
   "display_name": "Accounting KPI and Goals Filament",
   "description": "Filament 5 metric and goal review surface.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "category": "presentation",
   "provider": "Liberu\\Accounting\\KpiAndGoalsFilament\\KpiAndGoalsFilamentServiceProvider",
   "requires": {
@@ -21,5 +21,12 @@
     "Target and progress columns",
     "Alert visibility"
   ],
-  "default_enabled": true
+  "default_enabled": true,
+  "presentation": {
+    "filament": {
+      "app": [
+        "Liberu\\Accounting\\KpiAndGoalsFilament\\KpiAndGoalsFilamentPlugin"
+      ]
+    }
+  }
 }
